@@ -1,7 +1,17 @@
 from netmiko import ConnectHandler
 
-R1 = {"device_type":"cisco_ios_telnet","host":"192.168.56.103","port":5000,"username":"","password":"","secret":""}
-R2 = {"device_type":"cisco_ios_telnet","host":"192.168.56.103","port":5002,"username":"","password":"","secret":""}
+R1 = {"device_type":"cisco_ios_telnet",
+      "host":"192.168.56.103",
+      "port":5000,
+      "username":"",
+      "password":"",
+      "secret":""}
+R2 = {"device_type":"cisco_ios_telnet",
+      "host":"192.168.56.103",
+      "port":5002,
+      "username":"",
+      "password":"",
+      "secret":""}
 
 # Each test has a scenario purpose. The PCs themselves perform the most important
 # end-to-end tests; these router tests verify the same routed destinations.
